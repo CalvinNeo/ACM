@@ -27,3 +27,12 @@
 *.exe
 *.out
 *.app
+
+PCBUILD/*/Debug/
+PCBUILD/*/Release/
+Debug/
+Release/
+.vs/
+*.opendb
+*.db
+*.out
