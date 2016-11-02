@@ -1,3 +1,5 @@
+// // http://acm.hdu.edu.cn/showproblem.php?pid=5900
+
 //#include <iostream> 
 //#include <fstream>
 //#include <vector>

@@ -1,3 +1,6 @@
+// // http://acm.hdu.edu.cn/diy/contest_show.php?cid=30515
+// // http://acm.hdu.edu.cn/showproblem.php?pid=5553
+
 //#include <iostream> 
 //#include <fstream>
 //#include <vector>

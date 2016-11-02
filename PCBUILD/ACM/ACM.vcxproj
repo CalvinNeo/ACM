@@ -68,7 +68,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -112,18 +115,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\SRC\fuch.h" />
-    <ClInclude Include="ACM.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SRC\bnu1.1005.cpp" />
-    <ClCompile Include="..\..\SRC\cccc.1.28.cpp" />
-    <ClCompile Include="..\..\SRC\cccc.2.13.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1002.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1004.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1007.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1011.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.ans.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1002.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1003.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1011.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hefei.a.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1003.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1009.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp" />
     <ClCompile Include="..\..\SRC\icpc3.1002.cpp" />
     <ClCompile Include="..\..\SRC\icpc3.1003.cpp" />
     <ClCompile Include="..\..\SRC\icpc3.1007.cpp" />
@@ -231,7 +233,6 @@
     <ClCompile Include="..\..\SRC\test_pq.cpp" />
     <ClCompile Include="..\..\SRC\test_vector.cpp" />
     <ClCompile Include="..\..\SRC\time.cpp" />
-    <ClCompile Include="..\..\SRC\top1001.cpp" />
     <ClCompile Include="..\..\SRC\zna.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

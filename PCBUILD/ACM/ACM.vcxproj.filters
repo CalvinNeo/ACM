@@ -13,21 +13,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ACM.h">
-      <Filter>Test</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\SRC\fuch.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\SRC\bnu1.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\cccc.1.28.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\cccc.2.13.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SRC\ccpc2016.1002.cpp">
@@ -369,10 +360,13 @@
     <ClCompile Include="..\..\SRC\time.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SRC\top1001.cpp">
+    <ClCompile Include="..\..\SRC\zna.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\SRC\zna.cpp">
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1002.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
