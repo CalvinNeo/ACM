@@ -31,6 +31,9 @@
     <Compile Include="ccpc_final_check.py" />
     <Compile Include="icpc4.1003.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="test_python" />
+  </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

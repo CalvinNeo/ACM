@@ -369,5 +369,31 @@
     <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans1.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="icpc2016shenyang.1005.ans3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="icpc2016shenyang.1005.correct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Codejam2016.A.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.B.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.C.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.D.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.dummy.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.E.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.F.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.G.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.H.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1006.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1010.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.2.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.cpp" />
   </ItemGroup>
 </Project>

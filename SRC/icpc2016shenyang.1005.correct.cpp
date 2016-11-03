@@ -1,4 +1,4 @@
-﻿////// http://acm.hdu.edu.cn/showproblem.php?pid=5952
+﻿//// http://acm.hdu.edu.cn/showproblem.php?pid=5952
 //
 //#include <iostream> 
 //#include <fstream>
@@ -33,7 +33,6 @@
 //int ma[MAXN][MAXN];
 //int in[MAXN];
 //bool can[MAXN];
-//bool vis[MAXN];
 //int conn[MAXN];
 //int sz;
 //int cnt = 0;
@@ -44,8 +43,10 @@
 //		cnt++;
 //		return;
 //	}
-//	for (int i = 1; i <= n; i++)
+//	for (int ii = 0; ii < mp[st].size(); ii++)
+//	//for (int i = 1; i <= n; i++)
 //	{
+//		int i = mp[st][ii];
 //		if (st != i && can[i] && ma[st][i]) {
 //			// (st, i)
 //			bool flag = true;
@@ -59,8 +60,7 @@
 //			if (flag) {
 //				conn[sz] = i;
 //				sz++;
-//				// 这里错了应该是dfs(i)
-//				dfs(st);
+//				dfs(i);
 //				sz--;
 //			}
 //		}
@@ -75,18 +75,18 @@
 //		memset(ma, 0, sizeof ma);
 //		memset(can, 0, sizeof can);
 //		cnt = 0;
-//		//for (int i = 0; i <= n; i++)
-//		//{
-//		//	mp[i].clear();
-//		//}
+//		for (int i = 0; i <= n; i++)
+//		{
+//			mp[i].clear();
+//		}
 //		for (int i = 0; i < m; i++)
 //		{
 //			int u, v;
 //			scanf("%d%d", &u, &v);
 //			in[u]++; in[v]++;
-//			ma[u][v] = ma[v][u] = 1;
-//			//if (u > v) swap(u, v); // u <= v
-//			//mp[u].push_back(v);
+//			ma[u][v] = ma[v][u] = true;
+//			if (u > v) swap(u, v); // u <= v
+//			mp[u].push_back(v);
 //		}
 //		for (int i = 1; i <= n; i++)
 //		{

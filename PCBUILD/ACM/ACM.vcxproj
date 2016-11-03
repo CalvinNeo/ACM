@@ -129,6 +129,15 @@
     <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1011.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hefei.a.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016hefei.i.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.A.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.B.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.C.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.D.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.dummy.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.E.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.F.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.G.cpp" />
+    <ClCompile Include="..\..\SRC\Codejam2016.H.cpp" />
     <ClCompile Include="..\..\SRC\gq1.1002.cpp" />
     <ClCompile Include="..\..\SRC\gq3.1006.cpp" />
     <ClCompile Include="..\..\SRC\gq4.1004.cpp" />
@@ -185,6 +194,13 @@
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1003.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1009.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015hangzhou.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1006.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1010.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.2.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_2.1012.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans1.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans2.cpp" />
     <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp" />
     <ClCompile Include="..\..\SRC\icpc3.1002.cpp" />
     <ClCompile Include="..\..\SRC\icpc3.1003.cpp" />
@@ -234,6 +250,8 @@
     <ClCompile Include="..\..\SRC\test_vector.cpp" />
     <ClCompile Include="..\..\SRC\time.cpp" />
     <ClCompile Include="..\..\SRC\zna.cpp" />
+    <ClCompile Include="icpc2016shenyang.1005.ans3.cpp" />
+    <ClCompile Include="icpc2016shenyang.1005.correct.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
