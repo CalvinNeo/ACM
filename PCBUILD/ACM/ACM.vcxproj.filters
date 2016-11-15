@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Test">
       <UniqueIdentifier>{0a69644b-1808-4b89-8fa1-f5f055334155}</UniqueIdentifier>
     </Filter>
@@ -13,374 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\SRC\fuch.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\SRC\bnu1.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016.1007.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.ans.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hefei.a.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hefei.i.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq1.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq3.1006.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq4.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq4.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq6.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq8.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq8.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq8.1009.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\gq8.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hdu1097.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hdu4858.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hdu4858.link.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu1.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu1.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu1.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu1.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu1.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu2.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu2.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu2.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu2.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu3.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu3.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu3.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu3.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu3.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu4.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu4.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu4.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu4.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu5.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu5.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu5.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu5.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhu5.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhut1.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhut1.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhut1.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhut1.1004.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\hhut1.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc1.1006.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc1.1007.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc1.1009.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc1.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1006.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1007.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1011.ans.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1011.correct.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2.1011.m.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1007.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1009.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc3.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1006.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1010.ans.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1010.correct.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc4.1010.m.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1009.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\leet.3.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\llb1.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi2.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi2.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi2.1009.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi2.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi2.1012.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi3.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi3.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi3.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi3.1011.old.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi4.1011.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi4.1012.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi5.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi5.1012.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi5.1012.m.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi6.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi6.1003.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi6.1010.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi9.1012.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi10.1001.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\multi10.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.A.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.B.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.C.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.D.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.dummy.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.E.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.F.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.G.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\njust2016.H.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\noj1119.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\test_pq.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\test_vector.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\time.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\zna.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1002.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans1.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans2.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="icpc2016shenyang.1005.ans3.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="icpc2016shenyang.1005.correct.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\SRC\Codejam2016.A.cpp" />
     <ClCompile Include="..\..\SRC\Codejam2016.B.cpp" />
     <ClCompile Include="..\..\SRC\Codejam2016.C.cpp" />
@@ -395,5 +23,161 @@
     <ClCompile Include="..\..\SRC\icpc2015_2.1012.2.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015_2.1012.ans.cpp" />
     <ClCompile Include="..\..\SRC\icpc2015_2.1012.cpp" />
+    <ClCompile Include="..\..\SRC\bnu1.1005.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016.1002.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016.1004.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016.1007.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016.1011.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.ans.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1001.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1002.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1003.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hangzhou.1011.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hefei.a.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hefei.i.cpp" />
+    <ClCompile Include="..\..\SRC\gq1.1002.cpp" />
+    <ClCompile Include="..\..\SRC\gq3.1006.cpp" />
+    <ClCompile Include="..\..\SRC\gq4.1004.cpp" />
+    <ClCompile Include="..\..\SRC\gq4.1010.cpp" />
+    <ClCompile Include="..\..\SRC\gq6.1004.cpp" />
+    <ClCompile Include="..\..\SRC\gq8.1002.cpp" />
+    <ClCompile Include="..\..\SRC\gq8.1005.cpp" />
+    <ClCompile Include="..\..\SRC\gq8.1009.cpp" />
+    <ClCompile Include="..\..\SRC\gq8.1011.cpp" />
+    <ClCompile Include="..\..\SRC\hdu1097.cpp" />
+    <ClCompile Include="..\..\SRC\hdu4858.cpp" />
+    <ClCompile Include="..\..\SRC\hdu4858.link.cpp" />
+    <ClCompile Include="..\..\SRC\hhu1.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhu1.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhu1.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhu1.1004.cpp" />
+    <ClCompile Include="..\..\SRC\hhu1.1005.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2.1005.cpp" />
+    <ClCompile Include="..\..\SRC\hhu3.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhu3.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhu3.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhu3.1004.cpp" />
+    <ClCompile Include="..\..\SRC\hhu3.1005.cpp" />
+    <ClCompile Include="..\..\SRC\hhu4.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhu4.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhu4.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhu4.1005.cpp" />
+    <ClCompile Include="..\..\SRC\hhu5.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhu5.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhu5.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhu5.1004.cpp" />
+    <ClCompile Include="..\..\SRC\hhu5.1005.cpp" />
+    <ClCompile Include="..\..\SRC\hhut1.1001.cpp" />
+    <ClCompile Include="..\..\SRC\hhut1.1002.cpp" />
+    <ClCompile Include="..\..\SRC\hhut1.1003.cpp" />
+    <ClCompile Include="..\..\SRC\hhut1.1004.cpp" />
+    <ClCompile Include="..\..\SRC\hhut1.1005.cpp" />
+    <ClCompile Include="..\..\SRC\icpc1.1006.cpp" />
+    <ClCompile Include="..\..\SRC\icpc1.1007.cpp" />
+    <ClCompile Include="..\..\SRC\icpc1.1009.cpp" />
+    <ClCompile Include="..\..\SRC\icpc1.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1001.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1002.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1006.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1007.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1011.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1011.correct.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1011.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2.1011.m.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1002.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1003.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1007.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1009.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc3.1011.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1001.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1006.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1010.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1010.correct.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc4.1010.m.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1001.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1003.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1009.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015hangzhou.1010.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans1.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans2.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.ans3.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.correct.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2016shenyang.1005.cpp" />
+    <ClCompile Include="..\..\SRC\leet.3.cpp" />
+    <ClCompile Include="..\..\SRC\llb1.1001.cpp" />
+    <ClCompile Include="..\..\SRC\multi2.1001.cpp" />
+    <ClCompile Include="..\..\SRC\multi2.1003.cpp" />
+    <ClCompile Include="..\..\SRC\multi2.1009.cpp" />
+    <ClCompile Include="..\..\SRC\multi2.1011.cpp" />
+    <ClCompile Include="..\..\SRC\multi2.1012.cpp" />
+    <ClCompile Include="..\..\SRC\multi3.1001.cpp" />
+    <ClCompile Include="..\..\SRC\multi3.1002.cpp" />
+    <ClCompile Include="..\..\SRC\multi3.1011.cpp" />
+    <ClCompile Include="..\..\SRC\multi3.1011.old.cpp" />
+    <ClCompile Include="..\..\SRC\multi4.1011.cpp" />
+    <ClCompile Include="..\..\SRC\multi4.1012.cpp" />
+    <ClCompile Include="..\..\SRC\multi5.1003.cpp" />
+    <ClCompile Include="..\..\SRC\multi5.1012.cpp" />
+    <ClCompile Include="..\..\SRC\multi5.1012.m.cpp" />
+    <ClCompile Include="..\..\SRC\multi6.1001.cpp" />
+    <ClCompile Include="..\..\SRC\multi6.1003.cpp" />
+    <ClCompile Include="..\..\SRC\multi6.1010.cpp" />
+    <ClCompile Include="..\..\SRC\multi9.1012.cpp" />
+    <ClCompile Include="..\..\SRC\multi10.1001.cpp" />
+    <ClCompile Include="..\..\SRC\multi10.1002.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.A.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.B.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.C.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.D.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.dummy.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.E.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.F.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.G.cpp" />
+    <ClCompile Include="..\..\SRC\njust2016.H.cpp" />
+    <ClCompile Include="..\..\SRC\noj1119.cpp" />
+    <ClCompile Include="..\..\SRC\test_pq.cpp" />
+    <ClCompile Include="..\..\SRC\test_vector.cpp" />
+    <ClCompile Include="..\..\SRC\time.cpp" />
+    <ClCompile Include="..\..\SRC\zna.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.A.ans.cpp" />
+    <ClCompile Include="..\..\SRC\cf.665f.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.H.ans.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.E.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.H.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.H1.cpp" />
+    <ClCompile Include="..\..\SRC\test_link.cpp" />
+    <ClCompile Include="..\..\SRC\icpc2015_3.A.cpp" />
+    <ClCompile Include="..\..\SRC\poj1088.cpp" />
+    <ClCompile Include="..\..\SRC\poj1037.ans.cpp" />
+    <ClCompile Include="..\..\SRC\poj1037.cpp" />
+    <ClCompile Include="..\..\SRC\poj1037.m.cpp" />
+    <ClCompile Include="..\..\SRC\poj1037.correct.cpp" />
+    <ClCompile Include="..\..\SRC\poj1037.test_ans.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hefei.i.m.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hefei.e.cpp" />
+    <ClCompile Include="..\..\SRC\test_next_permutation.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5695.cpp" />
+    <ClCompile Include="..\..\SRC\hdu4857.ans.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5695.correct.cpp" />
+    <ClCompile Include="..\..\SRC\ccpc2016hefei.e.ans.cpp" />
+    <ClCompile Include="..\..\SRC\hdu4857.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5074.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5584.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5704.correct.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5092.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5092.ans.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.A.cpp" />
+    <ClCompile Include="..\..\SRC\poj3624.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.B.cpp" />
+    <ClCompile Include="..\..\SRC\poj1458.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest_B.TLE.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\fuch.h" />
   </ItemGroup>
 </Project>

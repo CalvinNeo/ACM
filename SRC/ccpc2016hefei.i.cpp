@@ -32,6 +32,7 @@
 //}
 //
 //LL highbit(LL x) {
+//	// 最高位的1
 //	LL ans = 1;
 //	while ((x >> 1) != 0) {
 //		ans <<= 1;
@@ -41,6 +42,7 @@
 //}
 //
 //LL highblend(LL x) {
+//	// 从最高位的1开始后面都是1
 //	LL ans = 1;
 //	while ((x >> 1) != 0) {
 //		ans <<= 1;
@@ -54,13 +56,16 @@
 //	scanf("%d", &t);
 //	while (t--) {
 //		scanf("%lld %lld", &l, &r);
+//		// 这边应该是判断l == r
 //		if (l + 1 == r) {
 //			ans = l | r;
 //		}
 //		else {
 //			LL f = (~r) & highblend(r);
+//			// f为r的从最高有效位取反
 //			ans = l;
 //			LL lb;
+//			// 寻找f的第一个1，也就是r的第一个0，把l对应的改成1
 //			while ((lb = lowbit(f)) != 0) {
 //				ans |= lb;
 //				f &= (~lb);

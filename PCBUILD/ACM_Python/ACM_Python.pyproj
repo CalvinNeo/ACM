@@ -30,6 +30,9 @@
     <Compile Include="ccpc2016hangzhou.1001.dat.gen.py" />
     <Compile Include="ccpc_final_check.py" />
     <Compile Include="icpc4.1003.py" />
+    <Compile Include="segmentfault1111_9.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="test_python" />

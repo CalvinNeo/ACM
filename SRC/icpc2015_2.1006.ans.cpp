@@ -1,44 +1,51 @@
 //#include <iostream>
 //#include <cstdio>
-//#include <cstring>
+//#include <string>
 //using namespace std;
-//#define LL long long
-//#define mod 530600414
-//const int maxn = 201320;
-//LL f[maxn];
-//LL h[maxn];
-//LL g[maxn];
-//void init(){
-//    memset(f,0,sizeof(f));
-//    memset(h,0,sizeof(h));
-//    memset(g,0,sizeof(g));
-//    f[3] = 1;
-//    f[4] = 1;
-//    for(int i = 5 ; i <= maxn; i++){
-//        f[i] = (f[i-1]+f[i-2])%mod;
-//    }
-//    h[3] = 1;
-//    h[4] = 3;
-//    for(int i = 5; i <= maxn; i++){
-//        h[i] = (h[i-1]+h[i-2] + (f[i+1]*f[i-1])%mod) %mod;
-//    }
-//    for(int i = 5; i <= maxn; i++){
-//        LL t1 = (f[i-2]*f[i+1]);
-//        LL t2 = (t1-h[i-2])%mod;
-//        LL t3 = (f[i-1]*t2)%mod;
-//        g[i] = (g[i-1] + g[i-2] + (h[i-1]*f[i-2])%mod + t3 )%mod;
-//    }
-//
-//}
-//int main(){
-//    init();
-//    int t;
-//    scanf("%d",&t);
-//    int cnt = 0;
-//    while(t--){
-//        cnt++;
-//        int n;
-//        scanf("%d",&n);
-//        printf("Case #%d: %lld\n",cnt,g[n]);
-//    }
+//int main() {
+//	// freopen("in","r",stdin);
+//	int t;
+//	string str, str0, str1;
+//	scanf("%d", &t);
+//	getline(cin, str);
+//	int cnt = 0;
+//	while (t--) {
+//		getline(cin, str);
+//		if (str == "") {
+//			printf("Case #%d: %d\n", ++cnt, 0);
+//			continue;
+//		}
+//		int n = str.length();
+//		int i = 0;
+//		while (str[i] == 'f' && i<n)
+//			i++;
+//		if (i == n) {
+//			printf("Case #%d: %d\n", ++cnt, (n + 1) / 2);
+//			continue;
+//		}
+//		str0 = str.substr(0, i);
+//		str1 = str.substr(i);
+//		str = str1 + str0;
+//		int ans = str.find_last_of('c');
+//		if (ans > n - 2) {
+//			ans = -1;
+//			printf("Case #%d: %d\n", ++cnt, ans);
+//			continue;
+//		}
+//		ans = 0;
+//		for (int i = 0; i<n; i++) {
+//			if (str[i] == 'f') {
+//				continue;
+//			}
+//			else if (str[i] == 'c' && str[i + 1] == 'f' && str[i + 2] == 'f') {
+//				ans++;
+//				continue;
+//			}
+//			else {
+//				ans = -1;
+//				break;
+//			}
+//		}
+//		printf("Case #%d: %d\n", ++cnt, ans);
+//	}
 //}
