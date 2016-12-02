@@ -27,7 +27,7 @@
 //int n, m;
 //
 //int px[MAXN], py[MAXN];
-//vector<int> online[1005];
+//vector<int> online[505];
 //double mp[MAXN][MAXN];
 //double dist[MAXN][MAXN];
 //int path[MAXN], pre[MAXN][MAXN];
@@ -51,15 +51,16 @@
 //	for (int k = 1; k <= n; k++)
 //	{
 //		for (int i = 1; i < k; i++)
+//		{
 //			for (int j = i + 1; j < k; j++)
 //			{
 //				double ans = dist[i][j] + mp[i][k] + mp[k][j];
-//				if (ans < minc) 
+//				if (ans < minc)
 //				{
 //					minc = ans;
 //					num = 0;
 //					int p = j;
-//					while (p != i) 
+//					while (p != i)
 //					{
 //						path[num++] = p;
 //						p = pre[i][p];
@@ -68,6 +69,7 @@
 //					path[num++] = k;
 //				}
 //			}
+//		}
 //		for (int i = 1; i <= n; i++)
 //		{
 //			for (int j = 1; j <= n; j++)
@@ -92,6 +94,13 @@
 //
 //int sqrs(int x, int y) {
 //	return x * x + y * y;
+//}
+//
+//bool point_cmp(const int & i, const int & j) {
+//	if (px[i] == px[j]) {
+//		return py[i] < py[j];
+//	}
+//	return px[i] < px[j];
 //}
 //
 //int main() {
@@ -127,7 +136,7 @@
 //		}
 //		for (int i = 1; i <= m; i++)
 //		{
-//			sort(online[i].begin(), online[i].end());
+//			sort(online[i].begin(), online[i].end(), point_cmp);
 //		}
 //		for (int i = 1; i <= m; i++)
 //		{
@@ -140,7 +149,14 @@
 //					dist[pt1][pt2] = dist[pt2][pt1] = mp[pt1][pt2] = mp[pt2][pt1] = cost;
 //			}
 //		}
-//		
+//		//for (int i = 1; i <= n; i++)
+//		//{
+//		//	for (int j = 1; j <= n; j++)
+//		//	{
+//		//		printf("%11.2f ", mp[i][j]);
+//		//	}
+//		//	puts("");
+//		//}
 //		double ans = floyd();
 //		if (minc > INF - 1) {
 //			puts("impossible");

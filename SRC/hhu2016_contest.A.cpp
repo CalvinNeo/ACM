@@ -27,25 +27,25 @@
 //int T;
 //int n, m;
 //
-//int W[MAXN], D[MAXN];
+//int a[MAXN], b[MAXN];
 //int dp[MAXM];
 //
 //int main() {
 //	while (scanf("%d%d", &n, &m) != EOF) {
 //		for (int i = 1; i <= n; i++)
 //		{
-//			scanf("%d%d", &W[i], &D[i]);
+//			scanf("%d%d", &a[i], &b[i]);
 //		}
 //		memset(dp, 0, sizeof dp);
 //		for (int i = 1; i <= n; i++)
 //		{
 //			for (int j = m; j >= 0; j--)
 //			{
-//				if (j - W[i] < 0) {
+//				if (j - b[i] < 0) {
 //					dp[j] = dp[j];
 //				}
 //				else {
-//					dp[j] = max(dp[j], dp[j - W[i]] + D[i]);
+//					dp[j] = max(dp[j], dp[j - b[i]] + a[i]);
 //				}
 //			}
 //		}

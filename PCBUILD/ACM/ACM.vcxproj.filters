@@ -191,6 +191,10 @@
     <ClCompile Include="..\..\SRC\hhu2015.2.1004.m.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest.C.cpp" />
     <ClCompile Include="..\..\SRC\vjudge14074.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.D.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.E.cpp" />
+    <ClCompile Include="..\..\SRC\hdu1506.cpp" />
+    <ClCompile Include="..\..\SRC\test_template.2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\SRC\fuch.h" />

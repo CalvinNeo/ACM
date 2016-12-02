@@ -152,6 +152,7 @@
     <ClCompile Include="..\..\SRC\gq8.1009.cpp" />
     <ClCompile Include="..\..\SRC\gq8.1011.cpp" />
     <ClCompile Include="..\..\SRC\hdu1097.cpp" />
+    <ClCompile Include="..\..\SRC\hdu1506.cpp" />
     <ClCompile Include="..\..\SRC\hdu1599.ans.cpp" />
     <ClCompile Include="..\..\SRC\hdu1599.cpp" />
     <ClCompile Include="..\..\SRC\hdu1599.m.cpp" />
@@ -184,6 +185,8 @@
     <ClCompile Include="..\..\SRC\hhu2015.2.1004.m.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest.A.MLE.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest.C.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.D.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.E.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest_B.TLE.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest.A.cpp" />
     <ClCompile Include="..\..\SRC\hhu2016_contest.B.cpp" />
@@ -294,6 +297,7 @@
     <ClCompile Include="..\..\SRC\test_link.cpp" />
     <ClCompile Include="..\..\SRC\test_next_permutation.cpp" />
     <ClCompile Include="..\..\SRC\test_pq.cpp" />
+    <ClCompile Include="..\..\SRC\test_template.2.cpp" />
     <ClCompile Include="..\..\SRC\test_template.cpp" />
     <ClCompile Include="..\..\SRC\test_vector.cpp" />
     <ClCompile Include="..\..\SRC\time.cpp" />
