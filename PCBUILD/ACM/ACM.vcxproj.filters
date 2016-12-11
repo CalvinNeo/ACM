@@ -195,6 +195,26 @@
     <ClCompile Include="..\..\SRC\hhu2016_contest.E.cpp" />
     <ClCompile Include="..\..\SRC\hdu1506.cpp" />
     <ClCompile Include="..\..\SRC\test_template.2.cpp" />
+    <ClCompile Include="..\..\SRC\test_lambda.cpp" />
+    <ClCompile Include="..\..\SRC\test_function_traits.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5876.cpp" />
+    <ClCompile Include="..\..\SRC\hdu5387.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.A.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.B.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.C.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.D.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.E.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.F.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.G.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.H.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.I.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.J.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.K.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.L.cpp" />
+    <ClCompile Include="..\..\SRC\nuaa_hhu2016.M.cpp" />
+    <ClCompile Include="..\..\SRC\test_template.3.cpp" />
+    <ClCompile Include="..\..\SRC\hhu2016_contest.C.kynoma.cpp" />
+    <ClCompile Include="..\..\SRC\UVALive7147.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\SRC\fuch.h" />

@@ -15,7 +15,7 @@
 //#include <cctype>
 //#include <cmath>
 //
-//#define INF 9999999
+//#define INF 1e9
 //#define MOD 10000007
 //const double eps = 1e-4;
 //using namespace std;
