@@ -78,6 +78,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__ACM;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -85,7 +86,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\Codes\CommonLib\boost_1_60_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>F:\Codes\CommonLib\boost_1_60_0\libs;F:\Codes\CommonLib\boost_1_60_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -117,6 +123,13 @@
     <ClInclude Include="..\..\SRC\fuch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\SRC2017\cf55d.correct.cpp" />
+    <ClCompile Include="..\..\SRC2017\hdu1247.correct.cpp" />
+    <ClCompile Include="..\..\SRC2017\hdu1247.cpp" />
+    <ClCompile Include="..\..\SRC2017\hdu1247.m.cpp" />
+    <ClCompile Include="..\..\SRC2017\hdu2089.cpp" />
+    <ClCompile Include="..\..\SRC2017\leet.4.cpp" />
+    <ClCompile Include="..\..\SRC2017\poj2096.cpp" />
     <ClCompile Include="..\..\SRC\bnu1.1005.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1002.cpp" />
     <ClCompile Include="..\..\SRC\ccpc2016.1004.cpp" />
@@ -257,6 +270,7 @@
     <ClCompile Include="..\..\SRC\icpc4.1010.correct.cpp" />
     <ClCompile Include="..\..\SRC\icpc4.1010.cpp" />
     <ClCompile Include="..\..\SRC\icpc4.1010.m.cpp" />
+    <ClCompile Include="..\..\SRC\kickstart2017_A.cpp" />
     <ClCompile Include="..\..\SRC\leet.3.cpp" />
     <ClCompile Include="..\..\SRC\llb1.1001.cpp" />
     <ClCompile Include="..\..\SRC\multi10.1001.cpp" />
@@ -310,19 +324,40 @@
     <ClCompile Include="..\..\SRC\poj1088.cpp" />
     <ClCompile Include="..\..\SRC\poj1458.cpp" />
     <ClCompile Include="..\..\SRC\poj3624.cpp" />
-    <ClCompile Include="..\..\SRC\test_function_traits.cpp" />
-    <ClCompile Include="..\..\SRC\test_lambda.cpp" />
-    <ClCompile Include="..\..\SRC\test_link.cpp" />
-    <ClCompile Include="..\..\SRC\test_next_permutation.cpp" />
-    <ClCompile Include="..\..\SRC\test_pq.cpp" />
-    <ClCompile Include="..\..\SRC\test_template.2.cpp" />
-    <ClCompile Include="..\..\SRC\test_template.3.cpp" />
-    <ClCompile Include="..\..\SRC\test_template.cpp" />
-    <ClCompile Include="..\..\SRC\test_vector.cpp" />
+    <ClCompile Include="..\..\SRC\pow_cmp.cpp" />
     <ClCompile Include="..\..\SRC\time.cpp" />
     <ClCompile Include="..\..\SRC\UVALive7147.cpp" />
     <ClCompile Include="..\..\SRC\vjudge14074.cpp" />
     <ClCompile Include="..\..\SRC\zna.cpp" />
+    <ClCompile Include="..\..\TEST\test_function_traits.cpp" />
+    <ClCompile Include="..\..\TEST\test_lambda.cpp" />
+    <ClCompile Include="..\..\TEST\test_link.cpp" />
+    <ClCompile Include="..\..\TEST\test_next_permutation.cpp" />
+    <ClCompile Include="..\..\TEST\test_pq.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.10.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.11.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.12.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.13.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.14.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.15.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.16.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.17.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.2.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.3.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.5.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.6.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.7.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.8.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.9.cpp" />
+    <ClCompile Include="..\..\TEST\test_template.cpp" />
+    <ClCompile Include="..\..\TEST\test_vector.cpp" />
+    <ClCompile Include="rc.1.cpp" />
+    <ClCompile Include="rc.2.cpp" />
+    <ClCompile Include="rc.3.cpp" />
+    <ClCompile Include="rc.4.cpp" />
+    <ClCompile Include="rc.5.cpp" />
+    <ClCompile Include="rc.6.cpp" />
+    <ClCompile Include="rc.7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
